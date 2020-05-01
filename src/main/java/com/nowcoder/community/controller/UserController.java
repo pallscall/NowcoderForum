@@ -108,7 +108,7 @@ public class UserController {
         try (FileInputStream fileInputStream = new FileInputStream(filename);
              ServletOutputStream os = response.getOutputStream();
         ){
-            byte[] buffer = new byte[1024];  //建一个缓冲区加快读取速度
+            byte[] buffer = new byte[1024];  //建一个缓冲区
             int b = 0;
             while((b=fileInputStream.read(buffer))!=-1){
                 os.write(buffer,0,b);
