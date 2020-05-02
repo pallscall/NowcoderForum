@@ -1,5 +1,4 @@
-var CONTEXT_PATH="/community";
-
+var CONTEXT_PATH = "/community";
 
 window.alert = function(message) {
 	if(!$(".alert-box").length) {
