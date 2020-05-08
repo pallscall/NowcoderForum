@@ -1,4 +1,6 @@
-# 仿牛客
+# 主要技术栈
+后端：Springboot + MyBatis + Redis + ElasticSearch 目前正在学习Kafka，增加系统消息通知功能
+前端：Bootstrap
 
 ## 1、论坛首页
 
